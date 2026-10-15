@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hobbies en interesses</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <ul class ="navigatie">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="ervaring.html">Ervaring</a></li>
+        <li><a href="hobbies_en_Interesses.html">Hobbies en Interesses</a></li>
+        <li><a href="contact.html">Contacteer mij</a></li>
+    </ul>
+
+    <div class="header">
+        <h1>Mijn hobbies en interesses</h1>
+    </div>
+
+    <div class="row">
+        <div class ="hobbies">
+            <p>
+                In mijn vrije tijd houd ik me graag bezig met verschillende hobby's en interesses. Een van mijn grootste hobby's is voetbal. Ik vind het leuk om voetbal te spelen, maar ook om wedstrijden te volgen en bezig te zijn met de sport. Het competitieve aspect en het samenwerken met anderen maken voetbal voor mij extra interessant.
+            </p>
+            <p>
+                Daarnaast speel ik graag videogames. Ik vind het leuk om verschillende soorten games uit te proberen en mezelf uit te dagen. Videogames zijn voor mij een goede manier om te ontspannen en mijn vrije tijd door te brengen.
+            </p>
+            <p>
+                Naast mijn hobby's heb ik ook interesse in programmeren. Ik vind het interessant om te ontdekken hoe programma's en technologie werken en om zelf dingen te maken met code. Ik vind het vooral leuk wanneer ik een probleem kan oplossen door logisch na te denken en te programmeren.
+            </p>
+            <p>
+                Verder kijk ik graag naar tv-series en films. Ik vind het interessant om verschillende verhalen en personages te ontdekken en kan me gemakkelijk verliezen in een goede serie of film. Mijn interesses zijn dus behoorlijk gevarieerd, van sport en games tot technologie en entertainment.
+            </p>
+        </div>
+    </div>
+
+    <form method="post" action="https://tm-statweb.be/forms.php">
+
+        <div>
+            <label for="naam">Naam:
+                <input type="text" id="naam" name="naam" />
+            </label>
+        </div>
+        
+        <div>
+            <label for="mail">E-mail:
+                <input type="email" id="mail" name="mail" required />
+            </label>
+        </div>
+        
+        <div>
+            <label for="onderwerp">Onderwerp:
+                <input type="password" id="onderwerp" name="onderwerp" required />
+            </label>
+        </div>
+
+        <div> <label for="reactie">Reactie</label> </div>
+        <div>
+            <textarea name="reactie" id="reactie" cols="40" rows="5"></textarea>
+        </div>
+
+        <div>
+            <label for="verzenden">
+                <input type="submit" value="Verzenden" id="verzenden" name="verzenden" required >
+            </label>
+        </div>
+    </form>
+    
+</body>
+</html>
